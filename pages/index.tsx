@@ -49,6 +49,7 @@ export default function Home() {
             </Link>
             , the Asia Las Vegas at the beginning. I hated casino mathematic at
             that time yet slowly realising the treasure it had given me.
+            &quot;Study&quot; to be a waitress was cool.
             <br />
             <br />
             First worked in Las Vegas Sands to build Macau&lsquo;s first smart
