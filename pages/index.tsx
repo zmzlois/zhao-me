@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <Link
+          <a
             href="https://medium.com/@zhaomianzhao/the-business-of-experience-c1af1c20bc69"
             className={`text-sm font-extralight tracking-wide flex justify-center items-center `}
           >
@@ -28,19 +28,19 @@ export default function Home() {
               &#8220; We all think time is all we have, whilst time is not
               represented in our memory.&#8221; <br />
             </p>
-          </Link>
+          </a>
 
           <div>
-            <h1
-              className={`${styles.vercelogo} md:m-10 w-auto text-6xl tracking-tighter font-extralight`}
+            <h3
+              className={`${styles.vercelogo} md:m-10 w-auto md:text-6xl text-3xl tracking-tighter font-extralight`}
             >
               {" "}
               Zhaomian Zhao
-            </h1>
+            </h3>
           </div>
         </div>
 
-        <div className="my-10 ">
+        <div className="my-10 text-start justify-center content-center items-center">
           <p className="font-extralight leading-10 tracking-wider">
             I studied{" "}
             <Link
@@ -131,28 +131,7 @@ export default function Home() {
             >
               ZenStack.dev
             </Link>
-            .
-            <Image
-              className="absolute -bottom-64 -left-84"
-              src={blurCyanImage}
-              alt=""
-              width={530}
-              height={530}
-              unoptimized
-              priority
-            />
-            <br />
-            <br />
-            <Image
-              className="absolute -top-64 -right-44"
-              src={blurIndigoImage}
-              alt=""
-              width={567}
-              height={567}
-              unoptimized
-              priority
-            />
-            Before building Project Waitless, I started two companies with my
+            . Before building Project Waitless, I started two companies with my
             friends, a digital marketing brand for french premium liquors and a
             urban planning consultancy deliver smart city solutions for Chinese
             municipal government.
