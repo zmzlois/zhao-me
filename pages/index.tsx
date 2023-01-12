@@ -51,8 +51,9 @@ export default function Home() {
             that time yet slowly realising the treasure it had given me.
             <br />
             <br />
-            First worked in Las Vegas Sands, Macau&lsquo;s first smart casino
-            project, I assisted data scientists from Stanford, Monash, LSE to{" "}
+            First worked in Las Vegas Sands to build Macau&lsquo;s first smart
+            casino project, I assisted data scientists from Stanford, Monash,
+            LSE to{" "}
             <Link
               href="https://www.thinkwithgoogle.com/intl/en-apac/future-of-marketing/creativity/sands-china-embraces-machine-learning-focus-high-value-consumers/"
               className="underline underline-offset-4 decoration-1"
