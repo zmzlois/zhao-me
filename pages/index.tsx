@@ -38,7 +38,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="my-10 relative">
+        <div className="my-10 ">
           <p className="font-extralight leading-10 tracking-wider">
             I studied{" "}
             <Link
@@ -160,8 +160,7 @@ export default function Home() {
             <br />
             <br />
             My friends would describe me: The 45 years old live in a 26 years
-            old body. I think it might be true. But for the most part -- I think
-            I am just way too lucky.
+            old body. I think it might be true.
           </p>
         </div>
 
@@ -169,14 +168,14 @@ export default function Home() {
           <div className="w-full flex content-center justify-center items-center">
             <Card
               href="https://medium.com/@zhaomianzhao"
-              title="Medium <-"
+              title="Medium"
               description=""
               rel="Zhaomian Zhao Personal Blog"
             />
 
             <Card
               href="https://twitter.com/LoisZhao01"
-              title="Twitter <-"
+              title="Twitter"
               description=""
               rel="Zhaomian Zhao's Twitter"
             />
@@ -207,7 +206,7 @@ const Card = ({
         rel={rel}
       >
         <h2
-          className={`self-center justify-self-center font-bold text-lg mb-1 tracking-wider `}
+          className={`self-center justify-self-center font-bold md:text-lg underline underline-offset-4 mb-1 tracking-wider `}
         >
           {title}
         </h2>
