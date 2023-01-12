@@ -88,7 +88,9 @@ export default function Home() {
             </Link>{" "}
             as the 6th employee, given the responsibility to handle office
             transactions and commercial real estate. Because I hadn&apos;t
-            graduated at that time, they called me &quot;Head of Intern&quot;.
+            graduated at that time, they kindly called me &quot;Head of
+            Intern&quot;, due to all my effort in recruiting, training and
+            supporting new recruits.
             <br />
             <br />I was fortunate to study Python and a light chunk of ML to
             build financial portfolio when I was studying behavioural finance in{" "}
