@@ -77,9 +77,9 @@ export default function Home() {
             >
               Page group
             </Link>{" "}
-            , learnt sales and fundamentals of recruiting by headhunting CMOs
-            for Nike, Swaroski and many other companies&apos; operations in
-            China. Later on I joined{" "}
+            , learnt sales and fundamentals of recruiting by headhunting
+            high-level executives for Nike, Swaroski and many other
+            companies&apos; operations in China. Later on I joined{" "}
             <Link
               href="https://www.knightfrank.com.cn/en/about-us"
               className="underline underline-offset-4 decoration-1"
