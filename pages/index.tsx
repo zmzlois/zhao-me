@@ -48,7 +48,7 @@ export default function Home() {
               hotel management in Macau
             </Link>
             , the Asia Las Vegas at the beginning. I hated casino mathematic at
-            that time yet slowly realising the treasure they had given me.
+            that time yet slowly realising the treasure it had given me.
             <br />
             <br />
             First worked in Las Vegas Sands, Macau&lsquo;s first smart casino
@@ -68,7 +68,7 @@ export default function Home() {
             >
               HVS China
             </Link>{" "}
-            to write hospitality industry publications covering China and US
+            , writing hospitality industry publications covering China and US
             market for Chinese government and state-own companies, I worked in{" "}
             <Link
               href="https://www.page.com/home-page"
@@ -77,7 +77,7 @@ export default function Home() {
               Page group
             </Link>{" "}
             , learnt sales and fundamentals of recruiting by headhunting CMOs
-            for Nike, Swaroski and many other companies&apos; operation in
+            for Nike, Swaroski and many other companies&apos; operations in
             China. Later on I joined{" "}
             <Link
               href="https://www.knightfrank.com.cn/en/about-us"
@@ -89,8 +89,8 @@ export default function Home() {
             transactions and commercial real estate. Because I hadn&apos;t
             graduated at that time, they called me &quot;Head of Intern&quot;.
             <br />
-            <br />I was fortunate to study Python and a light chunk of ML for
-            building financial portfolio in{" "}
+            <br />I was fortunate to study Python and a light chunk of ML to
+            build financial portfolio when I was studying behavioural finance in{" "}
             <Link
               href="https://www.henley.ac.uk/"
               className="underline underline-offset-4 decoration-1"
@@ -98,11 +98,52 @@ export default function Home() {
               Henley Business School
             </Link>
             . Other than those, I learnt everything else on my own.
+            <br />
+            <br />
+            At the moment, I am building{" "}
+            <Link
+              href="https://projectwaitless.io"
+              className="underline underline-offset-4 decoration-1"
+            >
+              Project Waitless
+            </Link>{" "}
+            for nightclubs to optimise their operations. I am the technical
+            author of the first book written for ChatGPT with specific use case,{" "}
+            <Link
+              href="https://prompt.mba"
+              className="underline underline-offset-4 decoration-1"
+            >
+              Prompt
+            </Link>
+            , with my friends. My work was around visualising word embedding
+            methods, tokenising, attention mechanism and transformer
+            architecture. I am also the core team of{" "}
+            <Link
+              href="https://zenstack.dev"
+              className="underline underline-offset-4 decoration-1"
+            >
+              ZenStack.dev
+            </Link>
+            .
+            <br />
+            <br />
+            Before building Project Waitless, I started two companies with my
+            friends, a digital marketing brand for french premium liquors and a
+            urban planning consultancy deliver smart city solutions for Chinese
+            municipal government.
+            <br />
+            <br />
+            In my free time, I enjoy doing crossfit with my friends, reading
+            random things and writing. You can find my blog below.
+            <br />
+            <br />
+            My friends would describe me: The 45 years old live in a 26 years
+            old body. I think it might be true.
           </p>
         </div>
 
         <div className={styles.grid}>
-          <div className="relative ">
+          <div className=" ">
             <div className="absolute inset-x-[-50vw] -top-32 -bottom-48 [mask-image:linear-gradient(transparent,white,white)] dark:[mask-image:linear-gradient(transparent,white,transparent)] lg:left-[calc(50%+14rem)] lg:right-0 lg:-top-32 lg:-bottom-32 lg:[mask-image:none] lg:dark:[mask-image:linear-gradient(white,white,transparent)]"></div>
             <div className="relative">
               <Image
@@ -125,23 +166,20 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="md:flex flex-auto">
-            <div className="m-5">
-              <Card
-                href="https://medium.com/@zhaomianzhao"
-                title="Medium"
-                description=""
-                rel="Zhaomian Zhao Personal Blog"
-              />
-            </div>
-            <div className="m-5">
-              <Card
-                href="https://twitter.com/LoisZhao01"
-                title="Twitter"
-                description=""
-                rel="Zhaomian Zhao's Twitter"
-              />
-            </div>
+          <div className="flex content-center">
+            <Card
+              href="https://medium.com/@zhaomianzhao"
+              title="Medium"
+              description=""
+              rel="Zhaomian Zhao Personal Blog"
+            />
+
+            <Card
+              href="https://twitter.com/LoisZhao01"
+              title="Twitter"
+              description=""
+              rel="Zhaomian Zhao's Twitter"
+            />
           </div>
         </div>
       </main>
@@ -162,21 +200,21 @@ const Card = ({
 }) => {
   return (
     <>
-      <div className="w-full border-2 border-cyan-600/30 rounded-lg hover:shadow-md hover:shadow-sky-400/40">
-        <div className="p-2 md:p-4 hover:from-blue-400/30 hover:via-blue-600 hover:to-blue-400/60">
-          {" "}
-          <Link href={href} className="" target="_blank" rel={rel}>
-            <h2
-              className={`self-center justify-self-center font-bold text-lg mb-1`}
-            >
-              {title} <span></span>
-            </h2>
-            <p className={`justify-self-center font-sm  font-extralight`}>
-              {description}
-            </p>
-          </Link>
-        </div>
-      </div>
+      <Link
+        href={href}
+        className={`${styles.card} relative`}
+        target="_blank"
+        rel={rel}
+      >
+        <h2
+          className={`self-center justify-self-center font-bold text-lg mb-1 tracking-wider underline-offset-4 underline`}
+        >
+          {title}
+        </h2>
+        <p className={`justify-self-center font-sm  font-extralight`}>
+          {description}
+        </p>
+      </Link>
     </>
   );
 };
