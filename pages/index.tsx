@@ -38,7 +38,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="my-10">
+        <div className="my-10 relative">
           <p className="font-extralight leading-10 tracking-wider">
             I studied{" "}
             <Link
@@ -126,8 +126,26 @@ export default function Home() {
               ZenStack.dev
             </Link>
             .
+            <Image
+              className="absolute -bottom-64 -left-84"
+              src={blurCyanImage}
+              alt=""
+              width={530}
+              height={530}
+              unoptimized
+              priority
+            />
             <br />
             <br />
+            <Image
+              className="absolute -top-64 -right-44"
+              src={blurIndigoImage}
+              alt=""
+              width={567}
+              height={567}
+              unoptimized
+              priority
+            />
             Before building Project Waitless, I started two companies with my
             friends, a digital marketing brand for french premium liquors and a
             urban planning consultancy deliver smart city solutions for Chinese
@@ -139,45 +157,23 @@ export default function Home() {
             <br />
             <br />
             My friends would describe me: The 45 years old live in a 26 years
-            old body. I think it might be true.
+            old body. I think it might be true. But for the most part -- I think
+            I am just way too lucky.
           </p>
         </div>
 
         <div className={styles.grid}>
-          <div className=" ">
-            <div className="absolute inset-x-[-50vw] -top-32 -bottom-48 [mask-image:linear-gradient(transparent,white,white)] dark:[mask-image:linear-gradient(transparent,white,transparent)] lg:left-[calc(50%+14rem)] lg:right-0 lg:-top-32 lg:-bottom-32 lg:[mask-image:none] lg:dark:[mask-image:linear-gradient(white,white,transparent)]"></div>
-            <div className="relative">
-              <Image
-                className="absolute -top-64 -right-64"
-                src={blurCyanImage}
-                alt=""
-                width={530}
-                height={530}
-                unoptimized
-                priority
-              />
-              <Image
-                className="absolute -bottom-40 -right-44"
-                src={blurIndigoImage}
-                alt=""
-                width={567}
-                height={567}
-                unoptimized
-                priority
-              />
-            </div>
-          </div>
-          <div className="flex content-center">
+          <div className="w-full flex content-center justify-center items-center">
             <Card
               href="https://medium.com/@zhaomianzhao"
-              title="Medium"
+              title="Medium <-"
               description=""
               rel="Zhaomian Zhao Personal Blog"
             />
 
             <Card
               href="https://twitter.com/LoisZhao01"
-              title="Twitter"
+              title="Twitter <-"
               description=""
               rel="Zhaomian Zhao's Twitter"
             />
@@ -208,7 +204,7 @@ const Card = ({
         rel={rel}
       >
         <h2
-          className={`self-center justify-self-center font-bold text-lg mb-1 tracking-wider underline-offset-4 underline`}
+          className={`self-center justify-self-center font-bold text-lg mb-1 tracking-wider `}
         >
           {title}
         </h2>
