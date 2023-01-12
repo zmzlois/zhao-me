@@ -126,14 +126,7 @@ export default function Home() {
             </div>
           </div>
           <div className="md:flex flex-auto">
-            <div className="m-5">
-              <Card
-                href="https://www.linkedin.com/in/loiszhao/"
-                title="LinkedIn"
-                description=""
-                rel=""
-              />
-            </div>
+      x
             <div className="m-5">
               <Card
                 href="https://medium.com/@zhaomianzhao"
