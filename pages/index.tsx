@@ -126,7 +126,6 @@ export default function Home() {
             </div>
           </div>
           <div className="md:flex flex-auto">
-      x
             <div className="m-5">
               <Card
                 href="https://medium.com/@zhaomianzhao"
