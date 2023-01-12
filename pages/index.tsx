@@ -77,8 +77,8 @@ export default function Home() {
               Page group
             </Link>{" "}
             , learnt sales and fundamentals of recruiting by headhunting CMOs
-            for Nike, Swaroski and many other companies' operation in China.
-            Later on I joined{" "}
+            for Nike, Swaroski and many other companies&apos; operation in
+            China. Later on I joined{" "}
             <Link
               href="https://www.knightfrank.com.cn/en/about-us"
               className="underline underline-offset-4 decoration-1"
@@ -86,8 +86,8 @@ export default function Home() {
               Knight Frank South China Office
             </Link>{" "}
             as the 6th employee, given the responsibility to handle office
-            transactions and commercial real estate. Because I hadn't graduated
-            at that time, they called me "Head of Intern".
+            transactions and commercial real estate. Because I hadn&apos;t
+            graduated at that time, they called me &quot;Head of Intern&quot;.
             <br />
             <br />I was fortunate to study Python and a light chunk of ML for
             building financial portfolio in{" "}
