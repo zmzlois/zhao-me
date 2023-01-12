@@ -22,17 +22,17 @@ export default function Home() {
         <div className={styles.description}>
           <Link
             href="https://medium.com/@zhaomianzhao/the-business-of-experience-c1af1c20bc69"
-            className={`text-sm underline font-extralight tracking-wide flex justify-center items-center gap-2 `}
+            className={`text-sm font-extralight tracking-wide flex justify-center items-center `}
           >
-            <p className="underline-offset-4 decoration-0 italic underline">
+            <p className="underline-offset-4 decoration-0 italic underline ml-2">
               &#8220; We all think time is all we have, whilst time is not
-              represented in our memory.&#8221; -- The Business of Experience
+              represented in our memory.&#8221; <br />
             </p>
           </Link>
 
           <div>
             <h1
-              className={`${styles.vercelogo} text-6xl tracking-tighter font-extralight`}
+              className={`${styles.vercelogo} md:m-10 w-auto text-6xl tracking-tighter font-extralight`}
             >
               {" "}
               Zhaomian Zhao
