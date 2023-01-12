@@ -116,9 +116,9 @@ export default function Home() {
             >
               Prompt
             </Link>
-            , with two ex-vice presidents from BBC. My work was around
-            visualising word embedding methods, tokenising, attention mechanism
-            and transformer architecture. I am also the core team of{" "}
+            , with two ex-vice presidents from BBC. Within this book, my work
+            was around visualising word embedding methods, tokenising, attention
+            mechanism and transformer architecture. I am also the core team of{" "}
             <Link
               href="https://zenstack.dev"
               className="underline underline-offset-4 decoration-1"
