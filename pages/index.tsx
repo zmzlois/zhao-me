@@ -54,8 +54,8 @@ export default function Home() {
             <br />
             First worked in Sheraton China as a housekeeper cleaning toilets,
             then as a waitress in a French restaurant. I soon entered Las Vegas
-            Sands to build Macau&lsquo;s first smart casino project, I assisted
-            data scientists from Stanford, Monash, LSE to{" "}
+            Sands to build Macau&lsquo;s first smart casino project, which I
+            assisted data scientists from Stanford, Monash, LSE to{" "}
             <Link
               href="https://www.thinkwithgoogle.com/intl/en-apac/future-of-marketing/creativity/sands-china-embraces-machine-learning-focus-high-value-consumers/"
               className="underline underline-offset-4 decoration-1"
