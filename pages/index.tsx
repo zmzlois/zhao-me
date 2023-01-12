@@ -22,10 +22,12 @@ export default function Home() {
         <div className={styles.description}>
           <Link
             href="https://medium.com/@zhaomianzhao/the-business-of-experience-c1af1c20bc69"
-            className={`md:text-md text-sm underline font-extralight tracking-wide flex justify-center items-center gap-2 underline-offset-4 decoration-0 italic`}
+            className={`text-sm underline font-extralight tracking-wide flex justify-center items-center gap-2 `}
           >
-            &#8220; We all think time is all we have, whilst time is not
-            represented in our memory.&#8221;
+            <p className="underline-offset-4 decoration-0 italic underline">
+              &#8220; We all think time is all we have, whilst time is not
+              represented in our memory.&#8221; -- The Business of Experience
+            </p>
           </Link>
 
           <div>
