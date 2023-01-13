@@ -124,17 +124,11 @@ export default function Home() {
             </Link>
             , with two ex-vice presidents from BBC. Within this book, my work
             was around visualising word embedding methods, tokenising, attention
-            mechanism and transformer architecture. I am also the core team of{" "}
-            <Link
-              href="https://zenstack.dev"
-              className="underline underline-offset-4 decoration-1"
-            >
-              ZenStack.dev
-            </Link>
-            . Before building Project Waitless, I started two companies with my
-            friends, a digital marketing brand for french premium liquors and a
-            urban planning consultancy deliver smart city solutions for Chinese
-            municipal government.
+            mechanism and transformer architecture. Before building Project
+            Waitless, I started two companies with my friends, a digital
+            marketing brand for french premium liquors and a urban planning
+            consultancy deliver smart city solutions for Chinese municipal
+            government.
             <br />
             <br />
             In my free time, I enjoy doing crossfit with my friends, reading
