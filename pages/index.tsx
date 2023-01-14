@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <a
+          <Link
             href="https://medium.com/@zhaomianzhao/the-business-of-experience-c1af1c20bc69"
             className={`text-sm font-extralight tracking-wide flex justify-center items-center `}
           >
@@ -28,19 +28,19 @@ export default function Home() {
               &#8220; We all think time is all we have, whilst time is not
               represented in our memory.&#8221; <br />
             </p>
-          </a>
+          </Link>
 
           <div>
-            <h3
-              className={`${styles.vercelogo} md:m-10 w-auto md:text-6xl text-3xl tracking-tighter font-extralight`}
+            <h1
+              className={`${styles.vercelogo} md:m-10 w-auto text-6xl tracking-tighter font-extralight`}
             >
               {" "}
               Zhaomian Zhao
-            </h3>
+            </h1>
           </div>
         </div>
 
-        <div className="my-10 text-start justify-center content-center items-center">
+        <div className="my-10 ">
           <p className="font-extralight leading-10 tracking-wider">
             I studied{" "}
             <Link
@@ -124,11 +124,22 @@ export default function Home() {
             </Link>
             , with two ex-vice presidents from BBC. Within this book, my work
             was around visualising word embedding methods, tokenising, attention
-            mechanism and transformer architecture. Before building Project
-            Waitless, I started two companies with my friends, a digital
-            marketing brand for french premium liquors and a urban planning
-            consultancy deliver smart city solutions for Chinese municipal
-            government.
+            mechanism and transformer architecture. I am also the core team of
+            an open source project{" "}
+            <Link
+              href="https://zenstack.dev"
+              className="underline underline-offset-4 decoration-1"
+            >
+              ZenStack.dev
+            </Link>
+            , acting a product manager and helping the project finding its own
+            product market fit.
+            <br />
+            <br />
+            Before building Project Waitless, I started two companies with my
+            friends, a digital marketing brand for french premium liquors and a
+            urban planning consultancy deliver smart city solutions for Chinese
+            municipal government.
             <br />
             <br />
             In my free time, I enjoy doing crossfit with my friends, reading
