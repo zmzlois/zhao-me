@@ -32,7 +32,7 @@ export default function Home() {
 
           <div>
             <h1
-              className={`${styles.vercelogo} md:m-10 w-auto text-6xl tracking-tighter font-extralight`}
+              className={`${styles.vercelogo} md:m-10 w-auto md:text-6xl text-3xl tracking-tighter font-extralight`}
             >
               {" "}
               Zhaomian Zhao
