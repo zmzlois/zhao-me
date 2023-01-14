@@ -146,8 +146,8 @@ export default function Home() {
             random things and writing. You can find my blog below.
             <br />
             <br />
-            My friends would describe me: The 45 years old live in a 26 years
-            old body. I think it might be true.
+            My friends would describe me: The 45 years old living in a 26 years
+            old&lsquo; body. I think it might be true.
           </p>
         </div>
 
