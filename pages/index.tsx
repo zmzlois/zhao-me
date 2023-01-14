@@ -132,8 +132,8 @@ export default function Home() {
             >
               ZenStack.dev
             </Link>
-            , acting a product manager and helping the project finding its own
-            product market fit.
+            , acting as a product manager and helping the project finding its
+            own product market fit.
             <br />
             <br />
             Before building Project Waitless, I started two companies with my
