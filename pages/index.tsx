@@ -147,7 +147,7 @@ export default function Home() {
             <br />
             <br />
             My friends would describe me: The 45 years old living in a 26 years
-            old&lsquo; body. I think it might be true.
+            old&lsquo;s body. I think it might be true.
           </p>
         </div>
 
