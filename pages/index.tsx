@@ -42,14 +42,14 @@ export default function Home() {
 
         <div className="my-10 ">
           <p className="font-extralight leading-10 tracking-wider">
-            I studied{" "}
+            In the beginning, I studied{" "}
             <Link
               className="underline underline-offset-4 decoration-1"
               href="https://www.must.edu.mo/en/fhtm"
             >
               hotel management in Macau
             </Link>
-            , the Asia Las Vegas at the beginning. I hated casino mathematic at
+            , the Las Vegas of Asia. I hated casino mathematic at
             that time yet slowly realising the treasure it had given me.
             &quot;Study&quot; to be a waitress was cool.
             <br />
